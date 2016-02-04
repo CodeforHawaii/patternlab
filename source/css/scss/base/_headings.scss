@@ -1,0 +1,61 @@
+/* Headings */
+/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
+h1, h2, h3, h4, h5, h6, .alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+	font-family: $font-header;
+}
+
+h1, .alpha, h3, .gamma, h5, .epsilon {
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+h2, .beta, h4, .delta, h6, .zeta {
+	color: $dark-blue;
+}
+
+h1, .alpha   { 
+	margin: 1.5em 0 .75em;
+	line-height: 1.2;
+	
+	font-size: 2.2em;
+	letter-spacing: 1px;
+}
+
+h2, .beta    { 
+	margin: 1.25em 0 .5em;
+	line-height: 1.2;
+	
+	font-size: 1.8em;
+}
+
+h3, .gamma   { 
+	margin: 1.0em 0 .5em;
+	line-height: 1.2;
+	
+	font-size: 1.35em;
+	letter-spacing: .5px;
+}
+
+h4, .delta   {
+	margin: .75em 0 .25em;
+	font-size: 1.15em;
+}
+
+h5, .epsilon { 
+	margin: .5em 0 .25em;
+	
+	font-size: 1.0em;
+	letter-spacing: .5px;
+}
+
+h6, .zeta    { 
+	margin: .25em 0 .125em;
+	
+	font-size: .85em;
+	text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* Subheadings */
+.subheading {
+	font-weight: normal;
+}

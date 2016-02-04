@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    $MESSAGING
+\*------------------------------------*/
+
+// Alerts
+.alert {
+	text-align: center;
+	padding: $pad;
+	margin: $pad;
+	border: 2px solid $bright-blue;
+	@include border-radius($pad-quarter);
+	color: $bright-blue;
+}
+
+.alert-error {
+	border: 6px solid $bright-red;
+	
+	color: $bright-red;
+}

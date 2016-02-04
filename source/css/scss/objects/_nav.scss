@@ -1,0 +1,100 @@
+/*------------------------------------*\
+    $NAVIGATION
+\*------------------------------------*/
+
+
+.navbar {
+	clear: both;
+	overflow: hidden;
+	max-height: 0;
+	
+	a {
+		display: block;
+		padding: $pad;
+		@include border-radius($pad-quarter);
+		
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: $deep-space;
+	}
+	a:hover, a:focus {
+		background: transparentize($light-gray, .75);
+
+		color: $code-red;
+		text-decoration: none;
+	}
+	.active a {
+		background: transparentize($light-gray, .5);
+	}
+
+	&.active {
+		max-height: 40em;
+	}
+
+	@media all and (min-width: $bp-med) {
+		max-height: none;
+		float: right;
+		clear: none;
+
+		li {
+			float: left;
+		}
+
+		a {
+			border: 0;
+		}
+		
+	}
+}
+
+.breadcrumbs {
+	li {
+		display: inline-block;
+		opacity: .67;
+		font-size: 90%;
+		font-weight: lighter;
+		
+		a {
+			margin: $pad-quarter;
+		}
+		
+		&+li {
+			&:before {
+				content: " › ";
+			}
+		}
+		&:last-child {
+			opacity: 1;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+//Pagination
+.pagination {
+	text-align: center;
+		
+	li {
+		display: inline-block;
+		
+		.space {
+			padding: $pad;
+		}
+		a {
+			padding: $pad-half $pad;
+			@include border-radius($pad-quarter);
+			/*border: 1px solid transparentize($light-gray, 0.2); */
+			
+			&:hover {
+				background: $sky-blue;
+				color: $deep-space;
+			}
+		}
+		&.active a {
+			background: $code-red;
+			color: $paper;
+		}
+	}
+	
+}

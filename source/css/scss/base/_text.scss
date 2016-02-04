@@ -1,0 +1,45 @@
+/* Text-Related Elements */ 
+
+p {
+	margin-bottom: $space;
+}
+
+/* Blockquote */
+blockquote {
+    padding: $pad;
+	margin-bottom: $space;
+	border-left: $pad solid $dark-sky;
+	@include border-radius($pad-quarter);
+	
+	font-style: italic;
+    color: $dark-sky;
+	
+	&.alt {
+		background: $bright-sky;
+	}
+	&.invert {
+		background: $dark-sky;
+		border-color: $bright-sky;
+		color: $dust;
+	}
+}
+	
+/* Horizontal Rule */ 
+hr {
+	border: 0;
+    height: 2px;
+    background: $light-gray;
+    margin: $space-double 0;
+	
+	&.dotted {
+		border: none;
+		border-bottom: 2px dotted $light-gray;
+		height: 0;
+		background: none;
+	}
+}
+
+abbr {
+    border-bottom: 1px dotted $gray;
+    cursor: help;
+}

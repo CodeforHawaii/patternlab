@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    $Table
+\*------------------------------------*/
+table {
+	width: 100%;
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+th {
+	text-align: left;
+	padding: $pad-quarter $pad-half;
+	
+	text-transform: uppercase;
+	font-size: 90%;
+	letter-spacing: .5px;
+}
+tbody {
+	border: 1px solid $light-gray;
+}
+td {
+	border: 1px solid $light-gray;
+	border-width: 0 1px;
+	padding: $pad-quarter $pad-half;
+}
+
+table.horiz {
+	th {
+		background: $dark-blue;
+		
+		color: $dust;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-size: 90%;
+		letter-spacing: .5px;
+	}
+	thead, tfoot {
+		border: 1px solid $light-gray;
+	}
+	thead th {
+		padding: $pad-half $pad-quarter $pad-quarter;
+	}
+	tfoot th {
+		padding: $pad-quarter $pad-quarter $pad-half;
+	}
+	
+	td {
+		border-width: 1px 0;
+	}
+}

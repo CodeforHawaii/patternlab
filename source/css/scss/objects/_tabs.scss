@@ -1,0 +1,41 @@
+.tabs {
+	overflow: hidden;
+	border-bottom: $pad-quarter solid $code-red;
+	@include border-radius($pad-quarter $pad-quarter 0 0);
+	
+	ul {
+		margin: $pad $pad 0;
+		text-align: center;
+	}
+	
+	li {
+		display: inline-block;
+		
+		&:last-child {
+			border-right: 0;
+		}
+	}
+
+	a {
+		display: block;
+		padding: $pad-half $pad-double;
+		@include border-radius($pad-quarter $pad-quarter 0 0);
+		/*background: $gray;*/
+		color: $dark-blue;
+		text-transform: uppercase;
+		
+		&:hover, &:focus {
+			background: $sky-blue;
+		}
+
+		&.active {
+			background: $code-red;
+			color: $paper;
+		}
+	}
+}
+.tab-contents {
+	padding: $pad;
+	background: transparentize($light-gray, .75);
+	@include border-radius(0 0 $pad-quarter $pad-quarter);
+}
