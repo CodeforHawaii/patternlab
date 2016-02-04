@@ -108,8 +108,8 @@ $animate-quick: 0.2s;
 	li {
 		overflow: hidden;
 		border: 1px solid $sg-tertiary;
-		padding: 0.3em;
-		margin: 0 0.2em 0.2em 0;
+		padding: 0.5em;
+		margin: 0 0.5em 0.5em 0;
 
 		@media all and (min-width: $sg-bp-small-2) {
 			float: left;
