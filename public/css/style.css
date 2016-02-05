@@ -55,7 +55,6 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     $VARIABLES
 \*------------------------------------*/
-/*$dim : rgba(0,0,0,0.5);*/
 /*------------------------------------*\
     $MIXINS
 \*------------------------------------*/
@@ -199,8 +198,7 @@ a {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   a:hover, a:focus {
-    color: #166c7a;
-    /*text-decoration: underline;*/ }
+    color: #166c7a; }
 
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
@@ -271,7 +269,7 @@ blockquote {
   blockquote.invert {
     background: #166c7a;
     border-color: #bde5e1;
-    color: #f9f2f4; }
+    color: #f9f6f4; }
 
 /* Horizontal Rule */
 hr {
@@ -367,7 +365,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 
 button, input[type="submit"] {
   padding: 0.5em;
-  background: #333;
+  background: #504b51;
   border: 1px solid #7f777e;
   cursor: pointer; }
 
@@ -396,11 +394,11 @@ input[type="search"]::-webkit-search-decoration {
   z-index: 1;
   width: auto;
   padding: 0.65rem 1.3rem;
-  background: #333;
+  background: #504b51;
   font-size: 0.875em; }
   .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
     background: #7f777e;
-    color: #fff; }
+    color: #f9f6f4; }
 
 /* Validation */
 .has-error {
@@ -465,7 +463,7 @@ td {
 
 table.horiz th {
   background: #1a315b;
-  color: #f9f2f4;
+  color: #e5dcda;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 90%;
@@ -473,9 +471,9 @@ table.horiz th {
 table.horiz thead, table.horiz tfoot {
   border: 1px solid #bcb1b5; }
 table.horiz thead th {
-  padding: 0.5em 0.25em 0.25em; }
+  padding: 0.5em 0.5em 0.25em; }
 table.horiz tfoot th {
-  padding: 0.25em 0.25em 0.5em; }
+  padding: 0.25em 0.5em 0.5em; }
 table.horiz td {
   border-width: 1px 0; }
 
@@ -669,7 +667,7 @@ table.horiz td {
     $PAGE STRUCTURE
 \*------------------------------------*/
 .header {
-  background: #fff;
+  background: #f9f6f4;
   padding: 0;
   border-bottom: 1px solid #dbdbdb; }
 
@@ -788,11 +786,11 @@ table.horiz td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
-  color: #fff;
+  background: #504b51;
+  color: #f9f6f4;
   line-height: 1.2; }
   .footer a {
-    color: #f9f9f9; }
+    color: #bcb1b5; }
 
 .nav-footer {
   margin: -1em -1em 1em;
@@ -944,7 +942,7 @@ table.horiz td {
 .icon-play-box:before {
   padding: 0.25em;
   background: #7f777e;
-  color: #fff;
+  color: #f9f6f4;
   margin-left: -1.7rem;
   margin-right: 0.5em; }
 
@@ -964,11 +962,11 @@ table.horiz td {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #f9f2f4;
+  color: #e5dcda;
   line-height: 1; }
   .btn:hover, .btn:focus {
     background: #51cce0;
-    color: #f9f2f4;
+    color: #f9f6f4;
     text-decoration: none; }
   .btn.alt {
     background: #ea4626; }
@@ -1002,15 +1000,7 @@ table.horiz td {
 
 .text-btn:hover {
   text-decoration: none;
-  color: #bde5e1; }
-
-/* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
-.brick {
-  background: #dcdddc;
-  padding: 2em;
-  text-align: center;
-  font-weight: bold;
-  border-bottom: 1px solid #eee; }
+  color: #51cce0; }
 
 /* Block */
 .block {
@@ -1105,11 +1095,11 @@ table.horiz td {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(49, 46, 51, 0.8);
-    color: #fff;
+    background: rgba(127, 119, 126, 0.75);
+    color: #f9f6f4;
     padding: 0.5em; }
     .block-inset .b-text .headline {
-      color: #fff; }
+      color: #f9f6f4; }
 
 /* Block Thumb with Summary */
 .block-thumb-summary .b-thumb {
@@ -1137,7 +1127,7 @@ table.horiz td {
     font-weight: normal; }
   .headline-list li {
     padding: 0.25em 0;
-    border-top: 1px solid #ddd; }
+    border-top: 1px solid #bcb1b5; }
 
 /* Post List */
 .post-list li {
@@ -1165,7 +1155,7 @@ table.horiz td {
     display: block; }
 
 .tooltip-link {
-  background: #f9f9f9; }
+  background: #bcb1b5; }
 
 .tooltip {
   display: none;
@@ -1174,7 +1164,7 @@ table.horiz td {
   left: 0;
   width: 18em;
   padding: 1em;
-  background: #fff;
+  background: #f9f6f4;
   border: 1px solid #7f777e;
   box-shadow: 0.3em 0.3em 1em 0 rgba(0, 0, 0, 0.2); }
   .tooltip h2 {
@@ -1193,21 +1183,21 @@ table.horiz td {
   margin-bottom: 1em; }
 
 .acc-handle {
-  background: #131313;
-  color: #fff;
+  background: #504b51;
+  color: #f9f6f4;
   font-weight: bold;
   display: block;
   position: relative;
   padding: 0.5em;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #bcb1b5; }
   .acc-handle:after {
     content: "+";
     float: right; }
   .acc-handle:hover {
-    color: #fff;
-    background: #333; }
+    color: #f9f6f4;
+    background: #504b51; }
   .acc-handle.active {
-    background: #333; }
+    background: #504b51; }
     .acc-handle.active:after {
       content: "-"; }
 
@@ -1273,8 +1263,8 @@ table.horiz td {
     float: left;
     margin-right: 0.5em; }
   .social-share a {
-    background: #333;
-    color: #fff;
+    background: #504b51;
+    color: #f9f6f4;
     display: block;
     padding: 0.5em; }
     .social-share a:hover {
@@ -1293,7 +1283,7 @@ table.horiz td {
   width: 6.5em; }
   .comment-meta img {
     display: block;
-    border: 1px solid #eee;
+    border: 1px solid #bcb1b5;
     margin-bottom: 0.5em; }
 
 .comment-name {
@@ -1319,7 +1309,7 @@ table.horiz td {
   color: #4f82db; }
 
 .alert-error {
-  border: 6px solid #f46270;
+  border: 4px solid #f46270;
   color: #f46270; }
 
 /*# sourceMappingURL=style.css.map */

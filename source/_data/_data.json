@@ -91,25 +91,6 @@
 		{ },
 		{ },
 		{ }
-	],
-	"color" : {
-		"trueBlue": "#0a3d99",
-		"codeRed": "#ea4626",
-		"skyBlue": "#51cce0",
-		"gray": "#7f777e",
-		
-		"brightBlue": "#4f82db",
-		"brightRed": "#f46270",
-		"brightSky": "#bde5e1",
-		"lightGray": "#bcb1b5",
-		
-		"lightBlue": "#dadcea",
-		"dust": "#f9f2f4",
-		"paper": "#f9f6f4",
-		
-		"darkBlue": "#1a315b",
-		"darkSky": "#166c7a",
-		"deepSpace": "#312e33"
-	}
+	]
 }
 

@@ -5,39 +5,33 @@
 // Primary colors
 $true-blue : #0a3d99;
 $code-red : #ea4626;
-$sky-blue : #51cce0;
+$sky : #51cce0;
 $gray : #7f777e;
 
 // Bright colors
-$bright-blue : #4f82db;
-$bright-red : #f46270;
-$bright-sky : #bde5e1;
-$light-gray : #bcb1b5;
+$blue-bright : #4f82db;
+$red-bright : #f46270;
+$sky-bright : #bde5e1;
+$gray-light : #bcb1b5;
 
 // Light colors
-$light-blue : #dadcea;
-$dust : #f9f2f4;
-$dust-50 : rgba(239, 233, 232, .5);
-$dust-0 : rgba(239, 233, 232, 0);
+$blue-light : #b8c1d1;
+$sand : #e5dcda;
 $paper : #f9f6f4;
 
 // Dark colors
-$dark-blue : #1a315b;
-$dark-sky : #166c7a;
-$deep-space : #312e33;
+$blue-dark : #1a315b;
+$sky-dark : #166c7a;
+$night : #312e33;
+$gray-dark : #504b51;
 
 
 //Additional Colors
-$gray-light : #f9f9f9;
-$gray-light-2 : #eee;
-$gray-light-3 : #ddd;
-$gray-med : #666;
-$gray-dark : #333;
-$gray-dark-2 : #131313;
-$white : #fff;
-$black : #000;
-/*$dim : rgba(0,0,0,0.5);*/
-$dim : transparentize($deep-space, .2);
+$white : $paper;
+$black : $night;
+$dim : transparentize($gray, .25);
+$dim-dark : transparentize($night, .25);
+$dim-light : transparentize($paper, .25);
 $error : $code-red;
 $valid : #47c65c;
 $warning : #fff664;

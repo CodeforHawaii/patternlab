@@ -11,20 +11,20 @@ fieldset {
 	margin: $space 0;
 	
 	@include border-radius($pad-half);
-	border: 1px solid $light-gray;
+	border: 1px solid $gray-light;
 }
 
 legend {
 	padding: 0 $pad-quarter;
 	
-	color: $dark-sky;
+	color: $sky-dark;
 	text-transform: uppercase;
 	letter-spacing: .5px;
 }
 label {
 	display: block;
 	padding-bottom: $pad-quarter;
-	color: $dark-sky;
+	color: $sky-dark;
 }
 
 button, input, select, textarea {
@@ -35,7 +35,7 @@ button, input, select, textarea {
 
 input, textarea {
 	width: 100%;
-	border: 1px solid $light-gray;
+	border: 1px solid $gray-light;
 	padding: $pad-half 0.65rem;
 }
 
@@ -89,7 +89,7 @@ input[type="search"]::-webkit-search-decoration {
 
 		&:hover, &:focus {
 			background: $gray;
-			color: $white;
+			color: $paper;
 		}
 	}
 }

@@ -21,11 +21,11 @@
 		padding: $pad-half $pad-double;
 		@include border-radius($pad-quarter $pad-quarter 0 0);
 		/*background: $gray;*/
-		color: $dark-blue;
+		color: $blue-dark;
 		text-transform: uppercase;
 		
 		&:hover, &:focus {
-			background: $sky-blue;
+			background: $sky;
 		}
 
 		&.active {
@@ -36,6 +36,6 @@
 }
 .tab-contents {
 	padding: $pad;
-	background: transparentize($light-gray, .75);
+	background: transparentize($gray-light, .75);
 	@include border-radius(0 0 $pad-quarter $pad-quarter);
 }

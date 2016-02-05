@@ -8,19 +8,19 @@ p {
 blockquote {
     padding: $pad;
 	margin-bottom: $space;
-	border-left: $pad solid $dark-sky;
+	border-left: $pad solid $sky-dark;
 	@include border-radius($pad-quarter);
 	
 	font-style: italic;
-    color: $dark-sky;
+    color: $sky-dark;
 	
 	&.alt {
-		background: $bright-sky;
+		background: $sky-bright;
 	}
 	&.invert {
-		background: $dark-sky;
-		border-color: $bright-sky;
-		color: $dust;
+		background: $sky-dark;
+		border-color: $sky-bright;
+		color: $paper;
 	}
 }
 	
@@ -28,12 +28,12 @@ blockquote {
 hr {
 	border: 0;
     height: 2px;
-    background: $light-gray;
+    background: $gray-light;
     margin: $space-double 0;
 	
 	&.dotted {
 		border: none;
-		border-bottom: 2px dotted $light-gray;
+		border-bottom: 2px dotted $gray-light;
 		height: 0;
 		background: none;
 	}

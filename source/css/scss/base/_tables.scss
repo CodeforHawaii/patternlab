@@ -15,32 +15,32 @@ th {
 	letter-spacing: .5px;
 }
 tbody {
-	border: 1px solid $light-gray;
+	border: 1px solid $gray-light;
 }
 td {
-	border: 1px solid $light-gray;
+	border: 1px solid $gray-light;
 	border-width: 0 1px;
 	padding: $pad-quarter $pad-half;
 }
 
 table.horiz {
 	th {
-		background: $dark-blue;
+		background: $blue-dark;
 		
-		color: $dust;
+		color: $sand;
 		font-weight: normal;
 		text-transform: uppercase;
 		font-size: 90%;
 		letter-spacing: .5px;
 	}
 	thead, tfoot {
-		border: 1px solid $light-gray;
+		border: 1px solid $gray-light;
 	}
 	thead th {
-		padding: $pad-half $pad-quarter $pad-quarter;
+		padding: $pad-half $pad-half $pad-quarter;
 	}
 	tfoot th {
-		padding: $pad-quarter $pad-quarter $pad-half;
+		padding: $pad-quarter $pad-half $pad-half;
 	}
 	
 	td {

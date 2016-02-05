@@ -6,7 +6,6 @@ a {
 	@include transition(all 0.3s ease);
 	
 	&:hover, &:focus {
-		color: $dark-sky;
-		/*text-decoration: underline;*/
+		color: $sky-dark;
 	}
 }

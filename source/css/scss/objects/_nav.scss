@@ -15,16 +15,16 @@
 		
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		color: $deep-space;
+		color: $night;
 	}
 	a:hover, a:focus {
-		background: transparentize($light-gray, .75);
+		background: transparentize($gray-light, .75);
 
 		color: $code-red;
 		text-decoration: none;
 	}
 	.active a {
-		background: transparentize($light-gray, .5);
+		background: transparentize($gray-light, .5);
 	}
 
 	&.active {
@@ -87,8 +87,8 @@
 			/*border: 1px solid transparentize($light-gray, 0.2); */
 			
 			&:hover {
-				background: $sky-blue;
-				color: $deep-space;
+				background: $sky;
+				color: $night;
 			}
 		}
 		&.active a {

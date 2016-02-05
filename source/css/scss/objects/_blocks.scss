@@ -1,12 +1,3 @@
-/* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
-.brick {
-	background: #dcdddc;
-	padding: $pad-double;
-	text-align: center;
-	font-weight: bold;
-	border-bottom: 1px solid $gray-light-2;
-}
-
 /* Block */
 .block {
 	overflow: hidden;
@@ -80,9 +71,9 @@
 	  		max-width: 10em;
 
 	 		img {
-	 			display: block;
-				  width: 100%;
-				  height: auto;
+				display: block;
+		  		width: 100%;
+			  	height: auto;
 	 		}
  		}
 	}
@@ -138,11 +129,11 @@
 		left: 0;
 		width: 100%;
 		background: $dim;
-		color: $white;
+		color: $paper;
 		padding: $pad-half;
 		
 		.headline {
-			color: $white;
+			color: $paper;
 		}
 	}
 }
